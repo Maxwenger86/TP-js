@@ -2,7 +2,7 @@ const producto =[
     {nombre: "barbijos", precio: 100 },
     {nombre: "guantes latex", precio: 250 },
     {nombre: "guantes nitrilo", precio: 300 },
-    {nombre: "cofias", precio: 150 },
+    {nombre: "cofias", precio: 155 },
 ];
 
 let carrito = []
@@ -38,7 +38,7 @@ while(seleccion != "no"){
             precio = 300;
             break;
             case "cofias":
-            precio = 150;
+            precio = 155;
             break;
             default:
             break;
